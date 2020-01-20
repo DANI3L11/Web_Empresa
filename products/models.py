@@ -3,7 +3,7 @@ from django.db import models
 
 class Products(models.Model):
     title = models.CharField(max_length=200,
-                             verbose_name="Título")
+                             verbose_name="Titlo")
     subtitle = models.CharField(max_length=200,
                                 verbose_name="Subtítulo")
     content = models.TextField(
